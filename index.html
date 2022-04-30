@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div class="leftsection">
+        <div class="logo">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="logo" srcset="" class="odin">
+            <p>ODIN</p>
+        </div>
+        </div>
+        <div class="rightsection">
+            <div class="top">
+                <h3>This is not a real online service!You know you need something like this in your life to help you realize your deepest dreams.</h3>
+                <h3> Sign up <em>now</em> to get started</h3>
+                <h3> You <em>know</em> you want to!</h3>
+            </div>
+            <div class="middle">
+                <h3>Let's do this</h3>
+                <table>
+                    <tr>
+                        <td><label for="firstName">First Name</label></td>
+                        <td><label for="lastName">Last Name</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="firstName"></td>
+                        <td><input type="text" name="lastName"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><label for="phoneNumber">Phone Number</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="email"></td>
+                        <td><input type="phoneNumber" name="phoneNumber"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><label for="confirmPassword">Confirm Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="password" id="password"></td>
+                        <td><input type="password" name="confirmPassword" id="confirmPassword"></td>
+                    </tr>
+                </table>
+                <div class="lower">
+                <p id="errorMessage"></p>
+                <button class="createAccount" onclick="passwordMatch()">Create Account</button>
+                <p> Already a member? <a class="login">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

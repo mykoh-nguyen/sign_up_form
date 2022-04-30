@@ -1,0 +1,60 @@
+/* body{
+    background:black;
+} */
+body{
+    margin:auto;
+}
+.leftsection{
+    background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    width:45%;
+}
+.logo{
+    background-color: rgba(0,0,0, 0.5);
+    height:100px;
+    top:25%;
+    position:relative;
+    align-items: center;
+    color:white;
+    display:flex;
+    justify-content: center;
+    font-size: 32pt;
+}
+
+.odin{
+    height:100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+.rightsection{
+    width:75%;
+    background:#F9FAFB;
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: repeat(3, 1fr);
+    padding:25px;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    background:black;
+    padding-left: 10%;
+    padding-right:10%;
+    height:100vh;
+}
+.login{
+    color:olive;
+}
+button{
+    background-color: olive;
+    color:white;
+    border-radius: 3px;
+}
+.middle{
+    background:white;
+}
+#errorMessage{
+    color:red;
+}
+}
+/* logo{
+    https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png
+} */
